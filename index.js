@@ -1,95 +1,96 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a forma correta de declarar uma variável em JavaScript?",
-      respostas: [
-        "var myVar;",
-        "let myVar;",
-        "const myVar;"
-      ],
-      correta: 2 // Índice da resposta correta (respostas[2] === "const myVar;")
-    },
-    {
-      pergunta: "Qual é o método em JavaScript usado para remover o último elemento de um array e retorná-lo?",
-      respostas: [
-        ".pop()",
-        ".shift()",
-        ".splice()"
-      ],
-      correta: 0 // Índice da resposta correta (respostas[0] === ".pop()")
-    },
-    {
-      pergunta: "Qual função é usada para imprimir algo no console em JavaScript?",
-      respostas: [
-        "console.log()",
-        "print()",
-        "log()"
-      ],
-      correta: 0 // Índice da resposta correta (respostas[0] === "console.log()")
-    },
-    {
-      pergunta: "Qual é o operador de igualdade estrita em JavaScript?",
-      respostas: [
-        "==",
-        "===", 
-        "!="
-      ],
-      correta: 1 // Índice da resposta correta (respostas[1] === "===")
-    },
-    {
-      pergunta: "Qual dos seguintes métodos é usado para adicionar novos elementos ao final de um array em JavaScript?",
-      respostas: [
-        ".push()",
-        ".concat()",
-        ".join()"
-      ],
-      correta: 0 // Índice da resposta correta (respostas[0] === ".push()")
-    },
-    {
-      pergunta: "Qual é a função JavaScript que é usada para verificar se uma variável não está definida?",
-      respostas: [
-        "isNaN()",
-        "isUndefined()",
-        "typeof undefined"
-      ],
-      correta: 2 // Índice da resposta correta (respostas[2] === "typeof undefined")
-    },
-    {
-      pergunta: "Qual método é usado para converter uma string para um número em JavaScript?",
-      respostas: [
-        ".toInt()",
-        ".parseInteger()",
-        "parseInt()"
-      ],
-      correta: 2 // Índice da resposta correta (respostas[2] === "parseInt()")
-    },
-    {
-      pergunta: "Qual dos seguintes métodos é usado para remover o primeiro elemento de um array em JavaScript?",
-      respostas: [
-        ".shift()",
-        ".pop()",
-        ".slice()"
-      ],
-      correta: 0 // Índice da resposta correta (respostas[0] === ".shift()")
-    },
-    {
-      pergunta: "Como você faz um loop através de um objeto em JavaScript?",
-      respostas: [
-        "for (var key in obj)",
-        "for (var i = 0; i < obj.length; i++)",
-        "forEach()"
-      ],
-      correta: 0 // Índice da resposta correta (respostas[0] === "for (var key in obj)")
-    },
-    {
-      pergunta: "Qual é a saída do seguinte código JavaScript?\n\nconsole.log(typeof null);",
-      respostas: [
-        "'object'",
-        "'null'",
-        "'undefined'"
-      ],
-      correta: 0 // Índice da resposta correta (respostas[0] === "'object'")
-    }
-  ];
+  {
+    pergunta: "Quando começou a Segunda Guerra Mundial?",
+    respostas: [
+      "1939",
+      "1941",
+      "1945"
+    ],
+    correta: 0 // Resposta A: 1939
+  },
+  {
+    pergunta: "Qual país foi invadido pela Alemanha nazista em 1940, levando à evacuação de tropas britânicas de Dunquerque?",
+    respostas: [
+      "França",
+      "Itália",
+      "Holanda"
+    ],
+    correta: 0 // Resposta A: França
+  },
+  {
+    pergunta: "Qual batalha é considerada a virada da guerra a favor dos Aliados na Frente Oriental?",
+    respostas: [
+      "Batalha de Stalingrado",
+      "Batalha de Kursk",
+      "Batalha de Berlim"
+    ],
+    correta: 0 // Resposta A: Batalha de Stalingrado
+  },
+  {
+    pergunta: "Qual foi o nome dado ao plano de invasão da União Soviética pela Alemanha nazista em 1941?",
+    respostas: [
+      "Operação Barbarossa",
+      "Operação Overlord",
+      "Operação Market Garden"
+    ],
+    correta: 0 // Resposta A: Operação Barbarossa
+  },
+  {
+    pergunta: "Qual foi a última grande ofensiva alemã na Frente Ocidental, que terminou em uma derrota decisiva para os alemães?",
+    respostas: [
+      "Batalha das Ardenas",
+      "Batalha de Bulge",
+      "Batalha de Kursk"
+    ],
+    correta: 0 // Resposta A: Batalha das Ardenas
+  },
+  {
+    pergunta: "Qual evento histórico levou os Estados Unidos a entrar na Segunda Guerra Mundial?",
+    respostas: [
+      "Ataque a Pearl Harbor",
+      "Bombardeio de Dresden",
+      "Invasão da Polônia"
+    ],
+    correta: 0 // Resposta A: Ataque a Pearl Harbor
+  },
+  {
+    pergunta: "Qual cidade japonesa foi alvo do primeiro ataque nuclear na história durante a Segunda Guerra Mundial?",
+    respostas: [
+      "Hiroshima",
+      "Nagasaki",
+      "Tóquio"
+    ],
+    correta: 0 // Resposta A: Hiroshima
+  },
+  {
+    pergunta: "Em que ano ocorreu o Dia D, a invasão Aliada da Normandia?",
+    respostas: [
+      "1944",
+      "1942",
+      "1945"
+    ],
+    correta: 0 // Resposta A: 1944
+  },
+  {
+    pergunta: "Quem foi o líder da Alemanha nazista durante a Segunda Guerra Mundial?",
+    respostas: [
+      "Adolf Hitler",
+      "Benito Mussolini",
+      "Winston Churchill"
+    ],
+    correta: 0 // Resposta A: Adolf Hitler
+  },
+  {
+    pergunta: "Que tratado formalizou a aliança entre Alemanha, Itália e Japão durante a Segunda Guerra Mundial?",
+    respostas: [
+      "Pacto Tripartite",
+      "Tratado de Versalhes",
+      "Tratado de Não-Agressão Germano-Soviético"
+    ],
+    correta: 0 // Resposta A: Pacto Tripartite
+  }
+];
+
   
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
